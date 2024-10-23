@@ -1,0 +1,33 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header-h1 {
+    font-size: 95px;
+    font-weight: 800;
+}
+
+.header p {
+    font-weight: 400;
+}
+
+.instructor-card img {
+    min-width: 355px;
+    min-height: 355px;
+    object-fit: cover;
+}
+.instructor-card {
+    overflow: hidden;
+}
+
+.instructor-card img {
+    transition: all 0.5s;
+}
+
+/* .instructor-card:hover {
+    border: 1px solid red;
+} */
+
+.instructor-card:hover img {
+    transform: scale(1.1);
+}
